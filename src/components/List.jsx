@@ -16,6 +16,7 @@ function List() {
               key={language.id}
               language={language}
               onClick={setSelectedLanguage}
+              isActive={language.id === selectedLanguage?.id}
             />
           ))}
         </div>
